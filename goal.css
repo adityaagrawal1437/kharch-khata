@@ -1,0 +1,60 @@
+/* Financial Goal Page Styles */
+
+body{
+    background-color: rgba(164,153,235,255);
+}
+#financial-goal-section {
+    margin: 20px;
+  }
+  
+  #financial-goal-section h2 {
+    margin-bottom: 10px;
+  }
+  
+  #goal-form {
+    margin-bottom: 20px;
+  }
+  
+  #goal-form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  #goal-form input[type="text"],
+  #goal-form input[type="number"],
+  #goal-form input[type="date"] {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  #add-goal-btn {
+    display: block;
+    padding: 8px 16px;
+    background-color: #9376E0;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #add-goal-btn:hover {
+    background-color: #9376E0;
+  }
+  
+  #goal-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #goal-list li {
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    background-color: gainsboro
+  }
+  
+  .paid {
+    background-color: #d3f7d3 !important;
+  }
+  
